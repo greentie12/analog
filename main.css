@@ -1,0 +1,118 @@
+body * {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	background-color: #3f94e7;
+}
+
+.logo {
+	height: 60px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+.logo img {
+	height: 35px;
+
+}
+
+.sign {
+    border-radius: 3px;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+fieldset {
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    color: #575757;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.analog-form button, input {
+    display: inline-block;
+    width: 320px;
+    height: 55px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.analog-form button {
+    background: #1bcc71;
+    border: 2px solid #1bcc71;
+    color: white;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: 40px;
+    transition-property: color, background;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.analog-form input {
+    border: 2px solid #e6e6e6;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.e-pass {
+    position: relative;
+    left: -12px;
+}
+
+.analog-form button:hover,
+.analog-form button:active,
+.analog-form button:focus {
+    background-color: #159C56;
+    border: 2px solid #159C56;
+}
+
+.log-in {
+    width: 330px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.log-in a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
